@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Acessibilidade</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Exemplo de Acessibilidade</h1>
+        <nav>
+            <ul>
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="acessibilidade_tutoriais.html">Tutoriais de acessibilidade</a></li>
+                <li><a href="estudos_casos_acessibilidade.html">Estudo de caso de acessibilidade</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="imagem">
+            <h2>Imagens com Descrição em texto e aúdio</h2>
+            <div class="image-container">
+                <img src="./img/rampa de acesso para Cad_Rod.jpg" alt="Foto de uma entrada de um edifício com uma rampa e escadas. A rampa é vermelha e possui corrimão em ambos os lados. As escadas são cinzas e têm um corrimão de um lado. O edifício é branco e tem uma janela e uma porta. O chão é feito de azulejos cinza e amarelo. A imagem transmite uma sensação de acessibilidade, pois a rampa permite a entrada de pessoas com mobilidade reduzida.">
+                <p>Uma imagem de um acesso a um edifício com rampa de acesso.</p>
+                <audio src="audio/rampa_acesso.mp3" controls></audio>
+            </div>
+        </section>
+        
+        <section id="contraste">
+            <h2>Exemplo de Contraste</h2>
+            <div class="contrasting-box">
+                <p>Texto com contraste diferente para facilitar a leitura.</p>
+            </div>
+        </section>
+
+        <section id="texto">
+            <h2>Aumentar/Diminuir Tamanho do Texto</h2>
+            <div class="text-size-buttons">
+                <button id="increase-font">Aumentar</button>
+                <button id="decrease-font">Diminuir</button>
+            </div>
+            <p class="font-size-example">Em um mundo digital em constante evolução, a acessibilidade é uma prioridade incontestável. Oferecer a opção de aumentar ou reduzir o tamanho da fonte diretamente em um site não é apenas uma comodidade, mas uma medida essencial para garantir que a informação seja acessível a todos.
+
+            </p>
+        </section>
+
+        <section id="form">
+            <h2>Formulário</h2>
+            <div class="form-container">
+                <form>
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required aria-label="Nome">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required aria-label="Email">
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" aria-label="Enviar">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

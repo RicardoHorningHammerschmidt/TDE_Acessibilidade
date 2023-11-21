@@ -1,0 +1,105 @@
+/* style.css */
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    padding: 20px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+nav ul li a {
+    color: #4CAF50; /* ou #3498db ou #333 ou #e74c3c ou #9b59b6 conforme a página */
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+article, section {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+form label {
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="submit"] {
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contrasting-box {
+    background-color:antiquewhite;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-size-buttons {
+    margin-bottom: 20px;
+}
+
+.text-size-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.text-size-buttons button:hover {
+    background-color: #2980b9;
+}

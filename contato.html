@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+    </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="artigos.html">Artigos</a></li>
+                <li><a href="recursos.html">Recursos</a></li>
+                <li><a href="acessibilidade_tutoriais.html">Tutoriais de acessibilidade</a></li>
+                <li><a href="estudos_casos_acessibilidade.html">Estudo de caso de acessibilidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-container">
+            <div class="div-form">
+                <h2>Informações de Contato</h2>
+                <p>Fique à vontade para entrar em contato conosco!</p>
+                
+                <form class="center">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" aria-label="Digite seu nome" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" aria-label="Digite seu email" required>
+                    
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" aria-label="Digite sua mensagem" required></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            
+        </section>
+
+        <div>
+            <audio src="./audio/contato.mp3" controls>
+                <p>
+                    Seu navegador não suporta audio HTML5. Aqui está o link para o audio: <a href="https://s5-10.ttsmaker-file.com/file/2023-11-21-020750_179446.mp3">clique aqui</a>
+                </p>
+            </audio>
+        </div>
+    </main>
+</body>
+</html>
